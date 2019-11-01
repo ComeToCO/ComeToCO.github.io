@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <style>
+    body
+    {
+        height = 100%;
+        background-image: url("https://wallpaperplay.com/walls/full/f/c/8/129186.jpg");
+        background-repeat: no-repeat, repeat;
+        background-color: #cccccc;
+        background-size: cover;
+    }
+    </style>
+
+    <head>
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <title>Preference</title>
+    </head>
+
+    <body>
+        <!--header-->
+        <br>
+        <div class = "container">
+            <h1 style="color:white">Visitor Preference</h1>
+
+
+<!--list of options-->
+            <br>
+            <!--group size-->
+            <div class = "row">
+                <div class = "col-5">
+                    <h4 style="color:white">Group Size</h4>
+                </div>
+                <div class = "col-3">
+                    <select class="form-control" id="groupSize">
+                        <option>Please choose your group size</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>above 4</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+
+            <!--estimate cost-->
+            <div class = "row">
+                <div class = "col-5">
+                    <h4 style="color:white">Estimate Cost</h4>
+                </div>
+                <div class = "col-3">
+                    <select class="form-control" id="estimateCost">
+                        <option>Please pick your estimate cost</option>
+                        <option>$</option>
+                        <option>$$</option>
+                        <option>$$$</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+
+            <!--age-->
+            <div class = "row">
+                <div class = "col-5">
+                    <h4 style="color:white">Age</h4>
+                </div>
+                <div class = "col-3">
+                    <input type="text" class="form-control" id="age" placeholder="Please enter your age">
+                </div>
+            </div>
+            <br>
+
+            <!--Season-->
+            <div class = "row">
+                <div class = "col-5">
+                    <h4 style="color:white">Current Season</h4>
+                </div>
+                <div class = "col-3">
+                    <select class="form-control" id="season">
+                        <option>Please choose current season</option>
+                        <option>Spring</option>
+                        <option>Summer</option>
+                        <option>Autumn</option>
+                        <option>Winter</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+
+            <!--Activity-->
+            <div class = "row">
+                <div class = "col-5">
+                    <h4 style="color:white">Activity</h4>
+                </div>
+                <div class = "col-3">
+                    <select class="form-control" id="activity">
+                        <option>Please choose activity type</option>
+                        <option>Indoor</option>
+                        <option>Outdoor</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+
+            <!--Happy hour-->
+            <div class = "row">
+                <div class = "col-5">
+                    <h4 style="color:white">Happy Hour</h4>
+                </div>
+                <div class = "col-3">
+                    <select class="form-control" id="happyHour">
+                        <option>Please choose happy hour time</option>
+                        <option>00:00am - 2:00am</option>
+                        <option>10:00am - 12:00pm</option>
+                        <option>12:00pm - 14:00pm</option>
+                        <option>14:00pm - 16:00pm</option>
+                        <option>16:00pm - 18:00pm</option>
+                        <option>18:00pm - 20:00pm</option>
+                        <option>20:00pm - 22:00pm</option>
+                        <option>22:00pm - 00:00am</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+
+            <!--submit button-->
+            <div align = "right">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </body>
+</html>
